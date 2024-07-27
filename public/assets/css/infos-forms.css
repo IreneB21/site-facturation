@@ -1,0 +1,78 @@
+@import url('style.css');
+
+form {
+    padding: 0 4rem;
+    min-width: 55%;
+}
+
+form fieldset {
+    border: none;
+    margin-top: 1.5rem;
+}
+
+form legend {
+    margin-left: 0.6rem;
+}
+
+form input {
+    height: 2.7rem;
+    border-radius: 6px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    text-align: center;
+    font-size: 1em;
+}
+
+form input:focus {
+    outline: 1.5px solid var(--secondary-color);
+}
+
+.infos-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-cta {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-top: 1.8rem;
+}
+
+.form-cta button {
+    box-shadow: var(--shadow-small-element);
+    border-radius: var(--border-radius-small-element);
+    padding: 0.7rem 3.2rem;
+    text-transform: uppercase;
+}
+
+.form-cta button:nth-of-type(1) {
+    color: var(--light);
+    background-color: var(--secondary-color);
+}
+
+.form-cta button:nth-of-type(2) {
+    color: var(--log-color);
+    border: 1.5px solid var(--log-color);
+    background-color: var(--primary-color);
+}
+
+/******** Create / Modify Invoice *********/
+.error {
+    border: 2px solid red;
+  }
+  .error:focus {
+    border: 2px solid red;
+    outline: none;
+    box-shadow: 0 0 5px red;
+  }
+  
+  .success {
+    border: 2px solid green;
+  }
+  .success:focus {
+    border: 2px solid green;
+    outline: none;
+    box-shadow: 0 0 5px green;
+  }

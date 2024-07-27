@@ -1,0 +1,12 @@
+Page Informations Personnelles
+    - CSS
+
+Page Modification Mot de passe
+    - css et html
+
+Page Historique des Factures
+    - CSS : carrés de décoration ne doivent pas recouvrir les factures
+    - Recherche avec caractères spéciaux === Youssef doit verifier sur ça BDD
+    - Ajout fonctionnalité tri (montant, date...)
+    - Désactiver bouton recherche entre envoi requête et résultat
+

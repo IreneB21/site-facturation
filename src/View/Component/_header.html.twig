@@ -1,0 +1,13 @@
+<header>
+    <img src="" alt="" class="logo">
+    {% if (session.user_id is not null) %}
+        <div>
+            <a href="/logout"><span class="logout-button">Déconnexion</span></a>
+        </div>
+    {% else %}
+        <div>
+            <a href="/login"><span class="login-button">Connexion</span></a>
+            <a href="/subscribe"><span class="signup-button">Inscription</span></a>
+        </div>
+    {% endif %}
+</header>
